@@ -1,0 +1,95 @@
+(footprint "VLP-450-R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -2.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f460bca5-740a-4ff0-891c-cc96ea431ff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VLP-450-R"
+		(at 0.1 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cba825e0-9e70-4667-b829-375de1686e23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d221068-8d16-45c8-a5cc-04274d5ac4d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44b6e33c-6c9f-4d20-a6de-c1e1feebc554")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.1 -2)
+		(end 2 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "824f9da5-e36c-4ec4-a47d-9925bf860e7b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 4.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a0116bf4-772e-45fb-8927-a13cb36d3404")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.1 2.1)
+		(size 0.61 0.61)
+		(drill 0.61)
+		(layers "*.Mask")
+		(uuid "7e8a3317-3826-4611-9a55-c7611919bf80")
+	)
+	(pad "" np_thru_hole circle
+		(at 2 -2)
+		(size 0.61 0.61)
+		(drill 0.61)
+		(layers "*.Mask")
+		(uuid "fefb1582-a2cc-4292-97cb-8dd141a47984")
+	)
+	(embedded_fonts no)
+)
