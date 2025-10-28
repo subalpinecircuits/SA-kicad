@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "VLP"
 		(at 0.1 -2.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -55,15 +55,26 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -2.1 -2)
-		(end 2 2.1)
+		(start -2.4 -2.3)
+		(end 2.3 2.4)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "824f9da5-e36c-4ec4-a47d-9925bf860e7b")
+		(uuid "2b697370-b856-4006-8d7e-d2275c39e5ba")
+	)
+	(fp_rect
+		(start -1.85 -1.75)
+		(end 1.75 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eef2660b-ee1c-464d-aa9b-088bae4fab3f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.2 4.4 0)
@@ -91,5 +102,144 @@
 		(layers "*.Mask")
 		(uuid "fefb1582-a2cc-4292-97cb-8dd141a47984")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "a8d0bac4-5a9a-42aa-97b4-3f90addf0a7d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.4 -2.3) (xy -1.85 -2.3) (xy -1.85 2.4) (xy -2.4 2.4)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "6ac9b77a-af2a-48d9-9877-6407464b94a6")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.85 1.85) (xy -1.85 2.4) (xy 2.3 2.4) (xy 2.3 1.8)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "006a6f32-d28b-4678-b3a9-76b0c727dc5b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 1.75 -1.75) (xy 2.3 -1.775) (xy 2.3 1.8) (xy 1.75 1.85)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "2e262c79-e6a3-4a24-9813-6516837af9a3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.3 -2.3) (xy 2.3 -1.775) (xy -1.85 -1.75) (xy -1.85 -2.3)
+			)
+		)
+	)
 	(embedded_fonts no)
+	(model "/Users/drew/Documents/Projects/SA-kicad/VLP-450-R.IGS"
+		(offset
+			(xyz 2.3 2.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 90 -0)
+		)
+	)
 )
